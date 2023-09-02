@@ -1,0 +1,74 @@
+@import './Base/reset.css';
+@import './Base/typography.css';
+
+html {
+    height: 100%;
+}
+
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 30px;
+
+    /* fallback */
+    background: radial-gradient(circle, #6c757d, #858c93, #9ea4aa, #b8bdc1, #d3d6d9, #d3d6d9, #d3d6d9, #d3d6d9, #b8bdc1, #9ea4aa, #858c93, #6c757d);
+
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(circle, #6c757d, #858c93, #9ea4aa, #b8bdc1, #d3d6d9, #d3d6d9, #d3d6d9, #d3d6d9, #b8bdc1, #9ea4aa, #858c93, #6c757d);
+
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #6c757d, #858c93, #9ea4aa, #b8bdc1, #d3d6d9, #d3d6d9, #d3d6d9, #d3d6d9, #b8bdc1, #9ea4aa, #858c93, #6c757d);
+
+    /* Firefox 3.6+ */ 
+    background: -moz-radial-gradient(circle, #6c757d, #858c93, #9ea4aa, #b8bdc1, #d3d6d9, #d3d6d9, #d3d6d9, #d3d6d9, #b8bdc1, #9ea4aa, #858c93, #6c757d);
+
+    /* IE 10 */ 
+    background: -ms-radial-gradient(circle, #6c757d, #858c93, #9ea4aa, #b8bdc1, #d3d6d9, #d3d6d9, #d3d6d9, #d3d6d9, #b8bdc1, #9ea4aa, #858c93, #6c757d);
+
+    /* Opera 11.10+  */
+    background: -o-radial-gradient(circle, #6c757d, #858c93, #9ea4aa, #b8bdc1, #d3d6d9, #d3d6d9, #d3d6d9, #d3d6d9, #b8bdc1, #9ea4aa, #858c93, #6c757d);
+}
+
+*, ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel.eot");
+  src: url("./Fonts/Sahel.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel.woff2") format("woff2"), url("./Fonts/Sahel.woff") format("woff"), url("./Fonts/Sahel.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-Bold.eot");
+  src: url("./Fonts/Sahel-Bold.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-Bold.woff2") format("woff2"), url("./Fonts/Sahel-Bold.woff") format("woff"), url("./Fonts/Sahel-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-Light.eot");
+  src: url("./Fonts/Sahel-Light.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-Light.woff2") format("woff2"), url("./Fonts/Sahel-Light.woff") format("woff"), url("./Fonts/Sahel-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-SemiBold.eot");
+  src: url("./Fonts/Sahel-SemiBold.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-SemiBold.woff2") format("woff2"), url("./Fonts/Sahel-SemiBold.woff") format("woff"), url("./Fonts/Sahel-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Sahel;
+  src: url("./Fonts/Sahel-Black.eot");
+  src: url("./Fonts/Sahel-Black.eot?#iefix") format("embedded-opentype"), url("./Fonts/Sahel-Black.woff2") format("woff2"), url("./Fonts/Sahel-Black.woff") format("woff"), url("./Fonts/Sahel-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

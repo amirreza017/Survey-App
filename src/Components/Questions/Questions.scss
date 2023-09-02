@@ -1,0 +1,10 @@
+.animation {
+    animation-name: fadeIn;
+    animation-duration: 500ms;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    0% { margin-left: -100%; }
+    100% { margin-left: 0; }
+}

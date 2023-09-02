@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "textQuestion": "محدوده سنی شما چیست؟",
+        "type": "test",
+        "radioAnswers": [
+            {"id": 1, "answer":"زیر 18 سال", "symbol": "under 18 years"},
+            {"id": 2, "answer":"بین 18 تا 25 سال", "symbol": "between 18 and 25 years"},
+            {"id": 3, "answer":"بین 25 تا 40 سال", "symbol": "between 25 and 40 years"},
+            {"id": 4, "answer":"بالای 40 سال", "symbol": "over 40 years old"}
+        ] 
+    },
+    {
+        "id": 2,
+        "textQuestion": "به چه موضوعاتی علاقه مند هستید؟",
+        "type": "multipleChoice",
+        "checkboxAnswers": [
+            {"id": 5, "answer":"موزیک", "symbol": "music"},
+            {"id": 6, "answer":"فیلم", "symbol": "movie"},
+            {"id": 7, "answer":"ورزش", "symbol": "sport"},
+            {"id": 8, "answer":"کریپتو", "symbol": "crypto"},
+            {"id": 9, "answer":"کتاب", "symbol": "book"},
+            {"id": 10, "answer":"برنامه نویسی", "symbol": "programming"},
+            {"id": 11, "answer":"شیمی", "symbol": "chemistry"},
+            {"id": 12, "answer":"نجوم", "symbol": "stars"}
+        ]
+    },
+    {
+        "id": 3,
+        "textQuestion": "درباره خودتان بنویسید",
+        "type": "descriptive"
+    }
+]
